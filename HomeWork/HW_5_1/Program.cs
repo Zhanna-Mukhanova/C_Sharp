@@ -2,7 +2,7 @@
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-int[] createArray(int size)
+int[] CreateArray(int size)
 {
     int[] array = new int[size];
 
@@ -16,7 +16,7 @@ int[] createArray(int size)
     return array;
 }
 
-int countEven(int[] array)
+int CountEven(int[] array)
 {
     int count = 0;
 
