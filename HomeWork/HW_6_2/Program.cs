@@ -9,7 +9,7 @@
 void Lines2(int k1, int b1, int k2, int b2){
     double x = (double) (b2 - b1) / (k1 - k2);
     double y = k2 * x + b2;
-    Console.WriteLine($"Точка пересечения ({x},{y})");
+    Console.WriteLine($"Точка оо пересечения ({x},{y})");
 }
 
 Console.WriteLine("Введите К1");
